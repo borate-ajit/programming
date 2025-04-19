@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Apr 19 21:13:11 2025
+# Process ID: 276
+# Current directory: E:/Ajit/FPGA_Programming/7_segement_display/seven_segment_0_9/seven_segment_0_9
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1860 E:\Ajit\FPGA_Programming\7_segement_display\seven_segment_0_9\seven_segment_0_9\seven_segment_0_9.xpr
+# Log file: E:/Ajit/FPGA_Programming/7_segement_display/seven_segment_0_9/seven_segment_0_9/vivado.log
+# Journal file: E:/Ajit/FPGA_Programming/7_segement_display/seven_segment_0_9/seven_segment_0_9\vivado.jou
+# Running On        :AJIT
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz
+# CPU Frequency     :2304 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8386 MB
+# Swap memory       :4700 MB
+# Total Virtual     :13087 MB
+# Available Virtual :6699 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Ajit/FPGA_Programming/7_segement_display/seven_segment_0_9/seven_segment_0_9/seven_segment_0_9.xpr
+update_compile_order -fileset sources_1

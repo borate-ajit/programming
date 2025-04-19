@@ -9,10 +9,7 @@
 // Project Name: switch_led
 // Target Devices: xc7a35t
 // Tool Versions: Vivado v2024.1 (64-bit)
-// Description: Control the ON OFF state of the LED using Switch.
-// 
-// Dependencies: This module is designed to turn an LED ON or OFF based on the state of the switch.
-// 
+// Description: This module is designed to turn an LED ON or OFF based on the state of the switch.
 // Revision: 1.0
 // 
 //////////////////////////////////////////////////////////////////////////////////

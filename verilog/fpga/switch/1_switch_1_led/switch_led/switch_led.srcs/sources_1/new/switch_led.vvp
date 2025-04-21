@@ -1,0 +1,22 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000001d958682d20 .scope module, "switch_led" "switch_led" 2 19;
+ .timescale -9 -12;
+    .port_info 0 /INPUT 1 "switch";
+    .port_info 1 /OUTPUT 1 "led";
+o000001d9586a5058 .functor BUFZ 1, C4<z>; HiZ drive
+L_000001d958683380 .functor BUFZ 1, o000001d9586a5058, C4<0>, C4<0>, C4<0>;
+v000001d9586835a0_0 .net "led", 0 0, L_000001d958683380;  1 drivers
+v000001d958682eb0_0 .net "switch", 0 0, o000001d9586a5058;  0 drivers
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    ".\switch_led.v";
